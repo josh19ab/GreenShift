@@ -5,6 +5,8 @@ function Navbar() {
     <div className="Navbar">
       <div className="textContainer">
         <h1>GreenShift</h1>
+
+
       </div>
       <div className="navItem">
         <Link to="/Home"> Home</Link>
@@ -12,6 +14,7 @@ function Navbar() {
         <Link to="/Activity"> Activity</Link>
         <Link to="/Profile"> Profile</Link>
       </div>
+
     </div>
   );
 }

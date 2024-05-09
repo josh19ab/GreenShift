@@ -4,10 +4,12 @@
     background-color: black;
     color: #fff;
     display: flex;
-    align-items: center;
+    align-items: center
+
     justify-content: space-between; 
     margin-bottom: 2rem;
     padding: 20px;
+
 }
 
 .textContainer {

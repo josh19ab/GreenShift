@@ -4,7 +4,7 @@ import LoginPage from './components/LoginPage/LoginPage';
 import HomePage from './components/HomePage/HomePage';
 import ServicesPage from './components/ServicesPage/ServicesPage';
 import ActivityPage from './components/ActivityPage/ActivityPage';
-// import ProfilePage from './components/ProfilePage/ProfilePage';
+import ProfilePage from './components/ProfilePage/ProfilePage';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route path="/home" element={<HomePage/>} />
           <Route path="/services" element={<ServicesPage/>} />
           <Route path="/activity" element={<ActivityPage/>} />
-          {/* <Route path="/profile" element={<ProfilePage/>} /> */}
+          <Route path="/profile" element={<ProfilePage/>} />
         </Routes>
     </Router>
     
