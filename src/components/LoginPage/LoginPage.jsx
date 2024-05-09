@@ -4,9 +4,12 @@ import AppleIcon from '@mui/icons-material/Apple';
 import SearchIcon from '@mui/icons-material/Search';
 import QrCodeScannerIcon from '@mui/icons-material/QrCodeScanner';
 import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar'
 
 function LoginPage() {
   return (
+    <div>
+      <Navbar/>
     <div className='LoginPage'>
       <div className="hero">
         <h3>
@@ -41,6 +44,7 @@ function LoginPage() {
         <p className='loginButn'>By proceeding, you consent to get calls, WhatsApp or SMS messages, including by automated means, from Uber and its affiliates to the number provided..</p>
       </div>
       
+    </div>
     </div>
   );
 }
