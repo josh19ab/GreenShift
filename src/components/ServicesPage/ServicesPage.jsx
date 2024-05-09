@@ -1,9 +1,16 @@
-// ServicesPage.js
+import './ServicesPage.css'
+import Card from "./Card/Card"
 function ServicesPage() {
   return (
-    <div>
-      <h2>Services Page</h2>
-      {/* Add information about public transportation, carpooling, and walking services */}
+    <div className='servicepage'>
+        <h1 className='ServiceHeading'>Services</h1>
+      <div className="services">
+      
+        <Card tittle="Car Pooling" disc="gfdgdgfddg"/>
+        <Card tittle="Public transport" disc="gfdgdgfddg" />
+        <Card tittle="Walking / Cycling" disc="gfdgdgfddg"/>
+      </div>
+
     </div>
   );
 }
