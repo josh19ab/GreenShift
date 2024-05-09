@@ -1,12 +1,27 @@
-// HomePage.js
+import "./HomePage.css"
+import Navbar from '../Navbar/Navbar'
+
 import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
     <div>
-      <h2>Home Page</h2>
-      <Link to="/services">Services</Link>
-      {/* Add trip planner and suggestions components here */}
+      <Navbar/>
+      <div className="home">
+          <div className="Hero">
+            <h1>dwgdgqggefgwgifgwigfiwgfgw</h1>
+            <p>kndjhfiudhfiuhdsjfhiuhsfdiuhfsuhfdshfhihufhsiuhd</p>
+            <div className="searchArea">
+              <input type="text" />
+              <input type="text" />
+              </div>  
+            <button>Check routes</button>
+
+            
+          </div>
+
+
+    </div>
     </div>
   );
 }
