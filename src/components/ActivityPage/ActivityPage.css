@@ -1,0 +1,68 @@
+*{
+    overflow-y: hidden;
+}
+
+
+.activityContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emissionTracker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0.5;
+
+
+    img{
+        height: 400px;  
+        width: 600px;
+    }
+}
+
+
+
+.history {
+    display: flex;
+    flex: 0.5;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 800px;
+    border-collapse: collapse;
+    height: 300px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Optional: Add border around the table */
+  table {
+    border: 1px solid #ddd;
+  }
+  
+  /* Optional: Add border to table headers */
+  th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  
