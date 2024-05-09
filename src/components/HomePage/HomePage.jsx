@@ -1,7 +1,7 @@
 import "./HomePage.css"
 import Navbar from '../Navbar/Navbar'
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -10,7 +10,9 @@ function HomePage() {
       <div className="home">
           <div className="Hero">
             <h1>GreenShift</h1>
-            <p>An Eco-Transit app for controlling carbon emmission </p>
+
+            <p>An ecoTransit app for controlling carbon emission</p>
+
             <div className="searchArea">
               <input type="text" placeholder="Enter the pickup point" />
               <input type="text" placeholder="Enter the destination point" />
