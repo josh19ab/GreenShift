@@ -6,9 +6,9 @@ function Navbar() {
     <div className='Navbar'>
         <h1>GreenShift</h1>
         <div className="navItem">
-        <Link to='/Home'> Services</Link>
+        <Link to='/Home'> Home</Link>
         <Link to='/services'> Services</Link>
-        <Link to='Services'> Services</Link>
+        <Link to='/profile'> Profile  </Link>
         </div>
     </div>
   )
